@@ -53,6 +53,6 @@ class LivrosController extends Controller
         $livro->fill($request->all());
         $livro->save();
         return to_route('livros.index')
-        ->with('mensagem.sucesso',"O livro '$livro->nome' foi atualizado com sucesso!" );
+        ->with('mensagem.sucesso',"O livro '$livro->nome' com '$livro->paginas' páginas foi atualizado com sucesso!" );
     }
 }

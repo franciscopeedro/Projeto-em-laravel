@@ -14,7 +14,7 @@
         <div class="col-2">
             <label for="paginas" class="form-label">Número de Páginas:</label>
             <input type="text" autofocus id="paginas" name="paginas" class="form-control" 
-            @isset($paginas)value="{{$paginas}}"@endisset>
+            @isset($paginas)value="{{$paginas}}"@endisset placeholder="paginas">
         </div>
     </div>
 
