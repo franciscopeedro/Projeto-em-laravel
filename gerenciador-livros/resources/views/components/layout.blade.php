@@ -17,7 +17,7 @@
     </style>
 
     <div class="container">
-        <h1>{{ $title }}</h1>
+        <h1 style="color:blue"> {{ $title }}</h1>
 
         @if($errors->any())
         <div class="alert alert-danger">
